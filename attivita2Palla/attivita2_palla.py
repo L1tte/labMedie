@@ -48,33 +48,23 @@ def muovi():
 
     # TODO 1 - Rimbalzo sul muro DESTRO
     # Se x supera LIMITE_X, la palla deve tornare indietro.
-    # Scrivi un if che cambia il segno di dx.
-    #
-    #
-    if x>LIMITE_X:
-        dx=-dx
+
 
     # TODO 2 - Rimbalzo sul muro SINISTRO
     # Se x è più piccolo di -LIMITE_X, la palla deve tornare indietro.
-    # Scrivi un if che cambia il segno di dx.
-    #
-    #
+    
 
 
     # TODO 3 - Rimbalzo sul muro IN ALTO
     # Se y supera LIMITE_Y, la palla deve tornare indietro.
-    # Scrivi un if che cambia il segno di dy.
-    #
-    #
+    
 
-    if(y>LIMITE_Y):
-        dy = -dy
+    
+    
 
     # TODO 4 - Rimbalzo sul muro IN BASSO
     # Se y è più piccolo di -LIMITE_Y, la palla deve tornare indietro.
-    # Scrivi un if che cambia il segno di dy.
-    #
-    #
+    
 
     # Sposto la palla e aggiorno lo schermo
     palla.goto(x, y)
@@ -96,11 +86,9 @@ def muovi():
 # LIVELLO 3 - Scia
 #   - Togli il cancelletto dalla riga "palla.pendown()" qui sotto
 #     e guarda cosa lascia la palla dietro di sé.
-# palla.pendown()
+#palla.pendown()
 #
-# LIVELLO 4 - Il gioco completo
-#   - Aggiungi una racchetta che segue il mouse e non far cadere
-#     la palla. Chiedi al tutor per un aiuto!
+
 # ============================================================
 
 # --- Avvio --------------------------------------------------
